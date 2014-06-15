@@ -9,10 +9,10 @@
 const boolean debug_mode = false;
 
 // Light data objects.
-#define LED_COUNT_PER_STRIP 60
+#define LED_COUNT_PER_STRIP 665
 PololuLedStrip<3> ledStrip1;
 PololuLedStrip<5> ledStrip2;
-rgb_color meta_strip[665];
+rgb_color meta_strip[LED_COUNT_PER_STRIP];
 
 static unsigned int wait = 50;
 static unsigned int segment_length = LED_COUNT_PER_STRIP / 6;
